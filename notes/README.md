@@ -1,6 +1,6 @@
 # Notes
 
-This directory contains learning notes, documentation, and knowledge documentation.
+This directory contains learning notes, documentation, and knowledge resources.
 
 ## What Goes Here
 
