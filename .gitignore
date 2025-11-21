@@ -1,0 +1,223 @@
+# Learn Repository - .gitignore
+# Comprehensive gitignore for a multi-language sandbox/learning repository
+
+# ===========================
+# Operating System Files
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ===========================
+# IDEs and Editors
+# ===========================
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ===========================
+# Programming Languages
+# ===========================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnp.*
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+.classpath
+.project
+.settings/
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+vendor/
+go.sum
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+.config
+coverage/
+InstalledFiles
+lib/bundler/man/
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+.yardoc/
+_yardoc/
+doc/
+
+# PHP
+vendor/
+composer.lock
+*.phar
+
+# C#/.NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+packages/
+.vs/
+
+# Swift
+.build/
+.swiftpm/
+Packages/
+*.xcodeproj
+*.xcworkspace
+*.playground
+
+# ===========================
+# Build Tools & Package Managers
+# ===========================
+# General
+*.log
+*.logs
+logs/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# ===========================
+# Environment & Configuration
+# ===========================
+.env
+.env.local
+.env.*.local
+*.secret
+secrets/
+.secrets/
+
+# ===========================
+# Temporary & Cache Files
+# ===========================
+*.tmp
+*.temp
+*.cache
+.cache/
+.temp/
+*.bak
+*.backup
+
+# ===========================
+# Personal Notes (optional)
+# ===========================
+# Uncomment if you want to keep some notes private
+# PRIVATE.md
+# TODO.md
+# **/NOTES.txt
